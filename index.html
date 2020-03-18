@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_dropdown.css">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; min-height: 100vh; flex-wrap: wrap;">
+        <!-- Droptop -->
+        <div class="dropdown" style="margin: 0rem 5rem">
+            <button class="btn dropdown-toggle" data-target="dropdown-4">Droptop</button>
+            <div class="dropdown-content top" id="dropdown-4">
+                <a href="" class="dropdown-items">Link</a>
+                <a href="" class="dropdown-items">Link</a>
+                <a href="" class="dropdown-items">Link</a>
+            </div>
+        </div>
+        <!-- Dropright -->
+        <div class="dropdown" style="margin: 0rem 5rem">
+            <button class="btn dropdown-toggle" data-target="dropdown-2">Dropright</button>
+            <div class="dropdown-content right" id="dropdown-2">
+                <a href="" class="dropdown-items">Link</a>
+                <a href="" class="dropdown-items">Link</a>
+                <a href="" class="dropdown-items">Link</a>
+            </div>
+        </div>
+        <!-- Dropdown -->
+        <div class="dropdown" style="margin: 0rem 5rem">
+            <button class="btn dropdown-toggle" data-target="dropdown-1">Dropdown</button>
+            <div class="dropdown-content" id="dropdown-1">
+                <a href="" class="dropdown-items">Link</a>
+                <div class="sub-dropdown-toggle dropdown-items" data-target="dropdown-inside-1">
+                    Drop
+                    <div class="dropdown-content right" id="dropdown-inside-1">
+                        <a href="" class="dropdown-items">Link</a>
+                        <a href="" class="dropdown-items">Link</a>
+                        <div class="sub-dropdown-toggle dropdown-items" data-target="dropdown-inside-2">
+                            Drop
+                            <div class="dropdown-content right" id="dropdown-inside-2">
+                                <a href="" class="dropdown-items">Link</a>
+                                <a href="" class="dropdown-items">Link</a>
+                                <a href="" class="dropdown-items">Link</a>
+                            </div>
+                        </div>
+                        <div class="sub-dropdown-toggle dropdown-items" data-target="dropdown-inside-3">
+                            Drop
+                            <div class="dropdown-content right" id="dropdown-inside-3">
+                                <a href="" class="dropdown-items">Link</a>
+                                <a href="" class="dropdown-items">Link</a>
+                                <a href="" class="dropdown-items">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Dropleft -->
+        <div class="dropdown" style="margin: 0rem 5rem">
+            <button class="btn dropdown-toggle" data-target="dropdown-3">Dropleft</button>
+            <div class="dropdown-content left" id="dropdown-3">
+                <a href="" class="dropdown-items">Link</a>
+                <a href="" class="dropdown-items">Link</a>
+                <a href="" class="dropdown-items">Link</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="_dropdown.min.js"></script>
+</html>
